@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img class='img1' src="../images/bandera Col.jpeg" alt="Bandera Colombia">
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../sections/sitios.html">Sitios</a></li>
+                <li><a href="../sections/fiestas.html">Fiestas</a></li>
+                <li><a href="../sections/platos.html">Platos</a></li>
+                <li><a href="../sections/guias.html">Guias</a></li>
+                <li><a href="../sections/nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <img class='img2' src="../images/bandera Col.jpeg" alt="Bandera Colombia">
+    </header>
+    <section class="d-flex justify-content-center">
+        <form>
+          <div class="row mb-3">
+            <label class="visually" for="autoSizingInput">Nombre</label>
+            <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane Doe">
+          </div>
+          <div class="row mb-3">
+            <label class="visually" for="autoSizingInput">Telefono</label>
+            <input type="tel" class="form-control" id="autoSizingInput" placeholder="+60 1 555554">
+          </div>
+          <div class="row mb-3">
+            <label class="visually" for="autoSizingInputGroup">Email</label>
+            <div class="input-group">
+              <div class="input-group-text">@</div>
+              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="correo@correo.com">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label class="visually" for="autoSizingSelect">Preferencias</label>
+            <select class="form-select" id="autoSizingSelect">
+              <option selected>Choose...</option>
+              <option value="1">Viaje</option>
+              <option value="2">Turismo</option>
+              <option value="3">Gastronomia</option>
+            </select>
+          </div>
+          <fieldset class="row g-5 mb-3">
+            <legend class="col-form-label gx-4 col-sm-2 pt-0">Medio de contacto</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Telefono
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  WhatsApp
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Email
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="row">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Acepta terminos y condiciones.
+              </label>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </section>
+    <footer>
+        <nav class="navFooter">
+            <ul>
+                <li><img src="../images/facebook.png" alt="facebook" width="20px" height="20px"></li>
+                <li><img src="../images/youtube.png" alt="youtube" width="20px" height="20px"></li>
+                <li><img src="../images/instagram.png" alt="instagram" width="20px" height="20px"></li>
+                <li><img src="../images/twitter.png" alt="twitter" width="20px" height="20px"></li>
+                <li><a href="../sections/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        <form>
+            <label>Obtenga nuestras noticias</label>
+            <input type="text" placeholder="email@email.com" name="email"/>
+            <input type="submit" value="Enviar Datos"/>                  
+        </form>
+    </footer>
+</body>
+</html>
