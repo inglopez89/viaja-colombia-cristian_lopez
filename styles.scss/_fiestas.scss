@@ -3,8 +3,6 @@
     grid-template-rows: repeat(1, 5fr);
     flex-direction: row;
     margin: 5%;
-    background-color: whitesmoke;
-    border-radius: 30px;
     article{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
