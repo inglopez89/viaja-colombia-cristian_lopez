@@ -18,8 +18,11 @@ header{
             display: inline;
             margin-left: 5px;
             color: black;
-            a:hover{
-                color: red;
+            a{
+                text-decoration: none;
+                a:hover{
+                    color: red;
+                }
             } 
         }
         

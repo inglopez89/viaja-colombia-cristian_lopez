@@ -108,7 +108,7 @@
       justify-self: center;
 }
 
-.fiestas {
+.panel {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (5fr)[1];
@@ -120,7 +120,7 @@
   margin: 5%;
 }
 
-.fiestas article {
+.panel article {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -134,18 +134,18 @@
   width: 90%;
 }
 
-.fiestas article .foto {
+.panel article .foto {
   height: 100%;
   width: 90%;
 }
 
-.fiestas article .foto img {
+.panel article .foto img {
   margin-top: 2%;
   height: 200px;
   width: 350px;
 }
 
-.fiestas article .texto {
+.panel article .texto {
   padding-top: 2%;
   text-align: justify;
   -ms-flex-item-align: stretch;
@@ -155,11 +155,11 @@
   height: 100%;
 }
 
-.fiestas article .texto strong {
+.panel article .texto strong {
   padding-bottom: 2%;
 }
 
-.fiestas hr {
+.panel hr {
   width: 80%;
   height: 1%;
   background-color: #0437A0;
@@ -191,7 +191,11 @@ header .menu li {
   color: black;
 }
 
-header .menu li a:hover {
+header .menu li a {
+  text-decoration: none;
+}
+
+header .menu li a a:hover {
   color: red;
 }
 
