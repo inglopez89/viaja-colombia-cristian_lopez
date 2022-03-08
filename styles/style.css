@@ -165,6 +165,21 @@
   background-color: #0437A0;
 }
 
+.about-me article img {
+  margin-left: 40%;
+  border-radius: 70%;
+}
+
+.about-me article h3 {
+  margin-left: 37%;
+}
+
+.about-me article p {
+  margin-left: 30%;
+  width: 40%;
+  text-align: justify;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
