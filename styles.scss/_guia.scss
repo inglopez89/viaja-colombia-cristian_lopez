@@ -1,0 +1,16 @@
+.guia{
+    article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+        p{
+            width: 90%;
+            height: 20%;
+            text-align: justify;
+        }
+        iframe{
+            width:90%;
+            height:90%;
+        }
+    }
+}

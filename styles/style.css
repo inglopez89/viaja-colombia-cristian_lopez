@@ -180,6 +180,25 @@
   text-align: justify;
 }
 
+.guia article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin-left: 5%;
+}
+
+.guia article p {
+  width: 90%;
+  height: 20%;
+  text-align: justify;
+}
+
+.guia article iframe {
+  width: 90%;
+  height: 90%;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
